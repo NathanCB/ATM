@@ -21,6 +21,8 @@ public class Option {
 
             case 2: selectedInput = 2;
                 System.out.println("Please enter the amount you wish to withdraw into the keypad.");
+                Cash cash = new Cash();
+                cash.withdrawMoney();
 
                 break;
 

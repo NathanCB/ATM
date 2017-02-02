@@ -11,8 +11,6 @@ public class Atm {
         Option option = new Option();
         option.chooseOption();
 
-        Cash cash = new Cash();
-        cash.withdrawMoney();
     }
 
 }

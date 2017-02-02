@@ -10,7 +10,10 @@ public class Cash {
         int cashOut = Atm.scanner.nextInt();
         if (cashOut < 100){
             System.out.println("Please rub your head and pat your belly at the same time that you remove your cash. Thank You!");
+
         }
+
         else {throw new Exception("You outta cash! Come back soon and make some deposits. Good luck!");}
+
     }
 }
