@@ -7,7 +7,6 @@ public class Atm {
     public static void main(String[] args) throws Exception {
         User user = new User();
         user.inputName();
-
         Option option = new Option();
         option.chooseOption();
 
