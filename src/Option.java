@@ -1,11 +1,7 @@
-/**
- * Created by nathanbutler on 2/1/17.
- * Defines user input to transact with ATM.
- */
+
 public class Option {
     int currentBalance = 100;
     String cancel;
-
 
     void chooseOption() throws Exception{
         System.out.println("What would you like to do today: " +
@@ -30,11 +26,6 @@ public class Option {
                 System.out.println("You have successfulLy cancelled the current transaction. Please come again.");
 
                 break;
-
-
         }
-
     }
-
-
 }

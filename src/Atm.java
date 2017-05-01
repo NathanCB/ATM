@@ -9,7 +9,6 @@ public class Atm {
         user.inputName();
         Option option = new Option();
         option.chooseOption();
-
     }
 
 }
